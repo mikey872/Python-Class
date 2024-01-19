@@ -1,5 +1,20 @@
-    1: {"math": 36, "science": 80, "english": 90},
-    2: {"math": 36, "science": 80, "english": 90},
-    3: {"math": 36, "science": 80, "english": 90},
-    4: {"math": 36, "science": 80, "english": 90},
-    5: {"math": 36, "science": 80, "english": 90}
+Number_list= []
+def calculator():
+    while True:
+        user= input("Enter the number and type N to end the ")
+        if user=="n":
+            break
+        elif not user.isdigit():
+            print("please give the integer")
+        else:
+            print("executed here")
+            # continue
+            number = int(user)
+            Number_list.append(number)
+    # return Number_list
+calculator()
+
+print(Number_list)
+
+
+
