@@ -26,11 +26,11 @@
 # Define a function called power that takes two arguments, base and exponent, with a default value of 2 for the exponent. The function should return the result of raising the base to the given exponent. Test the function with different values for the base and exponent.
 # Mix of Positional and Default Arguments:
 
-def power(base,exponent=2):
-    return base ** exponent
-base1 = (3)
-result = power(base1) 
-print(result)
+# def power(base,exponent=2):
+#     return base ** exponent
+# base1 = (3)
+# result = power(base1) 
+# print(result)
 
 # Write a function named greet_user that takes a positional argument name and a default argument greeting with a default value of "Hello". The function should return a greeting message using the provided name and greeting. Test the function with different names and, optionally, provide a custom greeting for some cases.
 
@@ -47,3 +47,5 @@ print(result)
 #     return sum(agrs)
 # one = calculate_sum(1, 2, 3)
 # print(one)
+
+  
