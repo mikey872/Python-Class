@@ -22,8 +22,11 @@
 # print(sum)
 
 
-fibonacci = lambda n: n if n <=1 else fibonacci(n - 1) + fibonacci(n - 2)
-for i in range(10):
-    print(fibonacci(i))
+import datetime
+from Day_2 import generate_square
+print(generate_square)
+# fibonacci = lambda n: n if n <=1 else fibonacci(n - 1) + fibonacci(n - 2)
+# for i in range(10):
+#     print(fibonacci(i))
 
-    0,1,2,3,4,5,6,7,8,9,10
+#     0,1,2,3,4,5,6,7,8,9,10

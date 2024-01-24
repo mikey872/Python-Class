@@ -9,10 +9,10 @@
 
 # string to uppercase using lamda
 
-a= ("anjal","bindu","bidhan")
-b=list((map(lambda c: c.upper(), a)))
-print(b)
+# a= ("anjal","bindu","bidhan")
+# b=list((map(lambda c: c.upper(), a)))
+# print(b)
 
  
- 
+from function import add
 

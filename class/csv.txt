@@ -1,0 +1,6 @@
+anjal,anjal@gmail.com
+anjal,anjala@gmail.com
+bidhan,bidhan@gmail.com
+basanti,bas@gmail.com
+rajesh,raj@gmail.com
+pk,pk@gmail.com

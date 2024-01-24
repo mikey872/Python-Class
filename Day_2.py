@@ -7,10 +7,10 @@
 # def generate_list_of_number(*args):
 #     print(args)
     
-#     # for i in args:
-#     #     print(i)
-#     #     print(generate_square(i))
-#     return [generate_square(i) for i in args]
+    # for i in args:
+    #     print(i)
+    #     print(generate_square(i))
+    # return [generate_square(i) for i in args]
 
 
 # number_ = range(1, nnumber+1)
