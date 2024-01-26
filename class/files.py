@@ -31,3 +31,4 @@ with open("class/name.txt","a") as f:
 # f2=open("data.txt")
 # output = f2.read()
 # print(output)
+

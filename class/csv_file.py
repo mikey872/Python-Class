@@ -13,9 +13,18 @@ import csv
 #     print(name)
 #     csf_file(name,email)
 
-def read_csv():
-    with open("class/csv.txt") as f:
-        csv_reader = csv.reader(f,delimiter=",")
+# def read_csv():
+#     with open("class/csv.txt") as f:
+#         csv_reader = csv.reader(f,delimiter=",")
+#         for data in csv_reader:
+#             print(data)
+# read_csv()
+
+
+def dict_csv():
+    with open("datas.csv") as r:
+        csv_reader = csv.DictReader(r , delimiter = "-")
+        print(csv_reader)
         for data in csv_reader:
             print(data)
-read_csv()
+dict_csv()
